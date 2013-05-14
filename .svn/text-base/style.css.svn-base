@@ -1,0 +1,49 @@
+/* 
+    Document   : style.css
+    Created on : May 18, 2012, 4:58:25 PM
+    Author     : dimitar
+*/
+
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+.slider-gallery-wrapper-arrows
+{
+    position: relative;
+    width: 800px;
+    height: 580px;
+    margin: 10px auto;
+    
+    padding: 0 7px;
+}
+
+.slider-gallery-wrapper 
+{
+    background-clip: border-box;
+    background-color: #000;
+    background-origin: padding-box;
+    
+    border-radius: 20px;
+    height: 580px;
+    
+    margin: 10px auto;
+    
+    padding: 20px 0px 10px;
+    text-shadow: white 0px 0px 1px;
+    width: 800px;
+}
+.slider-image-wrapper
+{
+    background-color: #fff;
+    background-origin: padding-box;
+    border: 5px solid white;
+    border-radius: 10px;
+    height: 525px;
+    margin: 15px 45px;
+    position: relative;
+    text-shadow: white 0px 0px 1px;
+    width: 700px;
+}

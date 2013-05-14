@@ -1,0 +1,97 @@
+/* 
+    Document   : style.css
+    Created on : May 18, 2012, 4:58:25 PM
+    Author     : Dimitar Danailov
+*/
+
+/********** Galleries **********/
+.presentation-gallery
+{
+    position: relative;
+    width: 700px;
+    height: 525px;
+    overflow: scroll;
+    margin: 0px auto;
+}
+.presentation-gallery ul
+{
+    width: 10000px;
+    list-style: none;
+}
+.presentation-gallery ul li
+{
+    float: left;
+    width: 700px;
+    position: relative;
+}
+.presentation-gallery ul li img
+{
+    position: relative;
+}
+.presentation-gallery ._slider_dots
+{
+    position: absolute;
+    cursor: pointer;
+    padding: 0.5em 0em 0.5em 0.5em;
+    display: none;
+    
+    right: 0%;
+    bottom: 0.3%;
+}
+.presentation-gallery ._slider_dots .dot
+{
+    width: 16px;
+    height: 16px;
+    display: block;
+    float: left;
+    margin-right: 0.5em;
+}
+.presentation-gallery ._slider_dots .dot
+{
+    background-color: #000000;
+    -webkit-box-shadow: 0 0 1.1em white;
+       -moz-box-shadow: 0 0 1.1em white;
+            box-shadow: 0 0 1.1em white;
+}
+.presentation-gallery ._slider_dots .dot-active {
+    background-color: #ffffff;
+}
+._silider_box-corners
+{
+    -webkit-border-radius: 10px;
+     -khtml-border-radius: 10px;
+       -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+         -o-border-radius: 10px;
+            border-radius: 10px;
+}
+
+
+.slider-arrow 
+{
+    display: block;
+    height: 79px;
+    width: 45px;
+    cursor: pointer;
+    background: url('nav-arrows.png');
+}
+
+.slider-arrow-center 
+{
+    position: absolute;
+    z-index: 2;
+    top: 40%;
+}
+
+.slider-arrow-prev 
+{
+    left: 0px;
+}
+
+.slider-arrow-next 
+{
+    right: 0;
+    background-position: -45px 0;
+}
+
+/********** Galleries **********/
